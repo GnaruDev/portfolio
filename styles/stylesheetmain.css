@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300&display=swap');
+
+
+* {
+	box-sizing:border-box;
+	}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	font-size: 16px;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #023047;
+}
+
+
+.titlecontainer{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+
+}
+
+h1.largetitles{
+	color: #ffffff;
+	font-family:'Work Sans', sans-serif;
+	font-size: 86px;
+	line-height: 100px;
+}
+
+
+h2.smalltitles{
+	color: #ffffff;
+	font-family:'Work Sans', sans-serif;
+	font-size: 46px;
+	line-height: 80px;
+	text-align: center;
+
+
+}
+
+h2.minititles{
+	color: #ffffff;
+	font-family:'Work Sans', sans-serif;
+	font-size: 26px;
+	line-height: 80px;
+
+}
+
+.sfimgcontainer{
+	max-width:auto;
+	max-height: 600px;
+}
+
+
+.portfolio-picture{
+	display: inline-block;
+	position: relative;
+	border:5px solid #ffffff;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.portfolio-picture img{
+	width: auto;
+	height: 100%;
+	margin-left: -50px;
+}
+
+h1{
+	color: #023047;
+	font-family:'Work Sans', sans-serif;
+	font-size: 46px;
+	text-align: center;
+
+}
+
+
+
+hr {
+  background-color: #fff;
+  padding: 0;
+  margin: 80px;
+}
+
+
+hr.hr-10 {
+  border: 0;
+  border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
+}
+
+hr.hr-10:after {
+  content: '';
+  display: block;
+  margin-top: 2px;
+  border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
+}
+
+
+/* Media Queries to Change the background when screen gets smaller to larger.  */
+
+
+@media(max-width:480px){
+	body{
+		background-image: url("../images/blue_wood.jpg");
+	}
+}
+
+@media(min-width: 481px) and (max-width: 1024px){
+	body{
+	background-image: url("../images/blue_wood.jpg");
+	}
+}
+
+@media (min-width: 1025px) {
+    body {
+	    background-image: url("../images/blue_wood_sun.jpg");
+   }
+}

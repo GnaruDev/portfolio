@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.topfixed{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/* Flexbox nav bar*/
+
+
+header{
+	padding: 40px 0px 40px 0px;
+	
+}
+
+li, a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 26px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.nav-list{
+	margin: 0;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+
+}
+
+.nav-item{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+
+
+.nav-item li{
+	display: inline-block;
+	padding: 0px 0px;
+
+}
+
+.nav-item li a{
+	transition: all 0.3s ease 0s;
+
+}
+
+.nav-item a:hover {
+	color: #f7c211;
+
+}
+
