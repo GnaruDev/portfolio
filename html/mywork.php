@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>GB | My Work</title>
+		<script src="https://www.hCaptcha.com/1/api.js" async defer></script>
 		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../styles/stylesheetaltpages.css">
 		<link rel="stylesheet" href="../styles/stylesheetnav.css">
@@ -62,7 +63,7 @@
 			<h1 class = "altpgtitle">Contact Me</h1>
 			<p class = "alt-text">If you would like to work together, connect, or discuss a new project please fill out the form below. All fields are required!</p>
 			<div class = "form-container">
-				<form action="../php/action.php" autocomplete="on">
+				<form action="mywork.php" method="POST" autocomplete="on">
 					<div class= "form-row">
 						<div class ="col-25">
 							<label for="fname">First Name:&nbsp;&nbsp;</label>
@@ -103,7 +104,8 @@
 					<p class="success"> <?php echo $success;  ?></p>
          			<p class="failed"> <?php echo $failed;  ?></p>
 				<p>&nbsp;&nbsp;</p>
-				<p><input type="submit" value="Send" />&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset Form" /></p>
+				<div class="h-captcha" data-sitekey="620a9341-ff21-4314-8935-59be582ae519"></div>
+				<p><input type="submit" name="submit" value="Send"  />&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset Form" /></p>
 				<p>&nbsp;&nbsp;</p>
 				</div>
 			</form>
