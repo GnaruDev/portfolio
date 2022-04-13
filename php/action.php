@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
         $lname = filter_input(INPUT_POST, 'lname', FILTER_UNSAFE_RAW);
         $name = join(" ", array($fname, $lname));
         $email = filter_var(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL);
-        $message = filter_input(INPUT_POST, 'message', FILTER_UNSAFE_RAW);
+        $message = filter_input(INPUT_POST, 'subject', FILTER_UNSAFE_RAW);
 
         // ignore empty values
         $name = !empty($name) ? $name : '';
