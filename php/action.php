@@ -63,7 +63,6 @@ if (isset($_POST['submit'])) {
 
             $response = curl_exec($curl);
             curl_close($curl);
-            echo $response;
 
             $success = 'Your contact request has been submitted successfully.';
             $name = '';
