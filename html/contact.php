@@ -3,7 +3,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>GB | My Work</title>
+		<title>GB | Contact</title>
 		<script src="https://www.hCaptcha.com/1/api.js" async defer></script>
 		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../styles/stylesheetaltpages.css">
