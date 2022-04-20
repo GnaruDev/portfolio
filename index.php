@@ -34,7 +34,8 @@
 							<ul class="nav-list">
 									<li class="nav-item"><a href="index.php">Home</a></li>
 									<li class="nav-item"><a href="html/aboutme.php">About</a></li>
-									<li class="nav-item"><a href="html/mywork.php">My Work</a></li>
+									<li class="nav-item"><a href="html/mywork.php">My&nbsp;Work</a></li>
+									<li class="nav-item"><a href="html/contact.php">Contact</a></li>
 							</ul>
 						</nav>
 					</header>

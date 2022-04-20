@@ -19,7 +19,8 @@
 					<ul class="nav-list">
 							<li class="nav-item"><a href="../index.php">Home</a></li>
 							<li class="nav-item"><a href="aboutme.php">About</a></li>
-							<li class="nav-item"><a href="mywork.php">My Work</a></li>
+							<li class="nav-item"><a href="mywork.php">My&nbsp;Work</a></li>
+							<li class="nav-item"><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -41,7 +42,6 @@
 			 		<div class="flexcolumn2">
 						<ul class="altpglist">
 							<li><span>Email:</span>&nbsp;<script>document.write(atob("Z21ibGFrZTEyMUBvdXRsb29rLmNvbQ=="));</script></li>
-							<li><span>Current Location:</span>&nbsp;Houston, TX</li>
 					 	</ul>
 						 <div class="gitdiv">
 						 	<a href="https://github.com/gnarudev" class="githublink" target="_blank"><i class="fab fa-github fa-3x"></i></a>
