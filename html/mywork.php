@@ -1,4 +1,3 @@
-<?php include '../php/action.php';?>
 <!DOCTYPE html>
 	<html lang="en">
 	<head>

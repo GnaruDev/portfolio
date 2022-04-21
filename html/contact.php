@@ -34,7 +34,7 @@
 			<h1 class = "altpgtitle">Contact Me</h1>
 			<p class = "alt-text">If you would like to work together, connect, or discuss a new project please fill out the form below. All fields are required!</p>
 			<div class = "form-container">
-				<form action="mywork.php" method="POST" autocomplete="on">
+				<form action="contact.php" method="POST" autocomplete="on">
 					<div class= "form-row">
 						<div class ="col-25">
 							<label for="fname">First Name:&nbsp;&nbsp;</label>
