@@ -35,12 +35,12 @@
 
             <div class ="imgrow">
                 <div class="imgcolumn">
-                    <a href="https://gnarudev.github.io/puffy-pastries-bakery/"><img src="../images/ppbakeryhero.PNG" alt="Puffy Pastries Bakery Website"></a>
+                    <a href="https://gnarudev.github.io/puffy-pastries-bakery/" target="_blank"><img src="../images/ppbakeryhero.PNG" alt="Puffy Pastries Bakery Website"></a>
                 </div>
 				
 
                 <div class="imgcolumn">
-                    <a href="https://gnarudev.github.io/haunted-experiences/"><img src="../images/hexperiencehero.PNG" alt="Haunted Experiences Website"></a>
+                    <a href="https://gnarudev.github.io/haunted-experiences/" target="_blank"><img src="../images/hexperiencehero.PNG" alt="Haunted Experiences Website"></a>
                 </div>
             </div>
 
@@ -48,12 +48,12 @@
             
             <div class ="imgrow">
                 <div class="imgcolumn">
-                    <a href="https://gnarudev.github.io/robotics/"><img src="../images/robotics.png" alt="Robotics Website"></a>
+                    <a href="https://gnarudev.github.io/robotics/" target="_blank"><img src="../images/robotics.png" alt="Robotics Website"></a>
                 </div>
 
 
                 <div class="imgcolumn">
-                    <a href="http://bigboss-games.com/"><img src="../images/bigboss.PNG" alt="Big Boss Games Website"></a>
+                    <a href="http://bigboss-games.com/" target="_blank"><img src="../images/bigboss.PNG" alt="Big Boss Games Website"></a>
                 </div>
             </div>
 
