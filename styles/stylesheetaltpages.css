@@ -2,31 +2,31 @@
 
 
 * {
-	box-sizing:border-box;
-	}
+	box-sizing: border-box;
+}
 
 
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 22px;
 	font-size: 16px;
 	color: #1b454a;
-	background-color:#308494;
+	background-color: #308494;
 
 }
 
 
-h1.largetitles{
+h1.largetitles {
 	color: #ffffff;
-	font-family:'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 86px;
 	line-height: 100px;
 }
 
 
-h2.smalltitles{
+h2.smalltitles {
 	color: #ffffff;
-	font-family:'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 46px;
 	line-height: 80px;
 	text-align: center;
@@ -34,9 +34,9 @@ h2.smalltitles{
 
 }
 
-h2.minititles{
+h2.minititles {
 	color: #ffffff;
-	font-family:'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 26px;
 	line-height: 80px;
 
@@ -50,7 +50,7 @@ h2.minititles{
 /* Creates two columns that sit next to each other */
 
 .flexrow {
-  display: flex;
+	display: flex;
 	flex-direction: row;
 	max-width: 1000px;
 	max-height: auto;
@@ -60,47 +60,48 @@ h2.minititles{
 
 
 .flexcolumn1 {
-	flex: 65%;
- 	padding:40px 30px 40px 30px;
-	background-color:#ffffff;
-	line-height: 26px;
+	flex: 55%;
+	padding: 40px 30px 40px 30px;
+	background-color: #ffffff;
+	line-height: 22px;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 	flex-direction: column;
 }
 
 .flexcolumn2 {
-	flex: 35%;
-  	padding:40px 30px 20px 16px;
-	background-color:#ffffff;
+	flex: 45%;
+	margin: 0px;
+	padding: 40px 30px 20px 16px;
+	background-color: #ffffff;
 	flex-direction: column;
 }
 
 .altpglist {
 	margin: 10px 0px 0px 40px;
 	padding: 0;
-  }
+}
 
-.altpglist li{
-	color:#1b454a;
+.altpglist li {
+	color: #1b454a;
 	list-style-type: none;
-	font-size:16px;
+	font-size: 16px;
 	line-height: 46px;
-  }
+}
 
-span{
+span {
 	font-weight: bold;
-  }
+}
 
-h1.altpgtitle{
+h1.altpgtitle {
 	color: #ffffff;
-	font-family:'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 46px;
 	text-align: center;
 	padding: 10px 40px 30px 10px;
 }
 
-p.alt-text{
+p.alt-text {
 	color: #ffffff;
 	line-height: 22px;
 	font-size: 18px;
@@ -110,15 +111,16 @@ p.alt-text{
 }
 
 
-.paragraph{
+.paragraph {
 	margin: 10px 30px 10px 30px;
 	padding: 0px 0px 0px 30px;
 
 }
+
 /*About Section Styles End*/
 
 /*GitHub Link Styles */
-a.contentlinks{
+a.contentlinks {
 	color: #1b454a;
 
 }
@@ -128,57 +130,57 @@ a:hover {
 
 }
 
-.gitdiv{
+.gitdiv {
 	padding-top: 10px;
 	text-align: center;
-  }
+}
 
-a.githublink{
-	color:#1b454a;
+a.githublink {
+	color: #1b454a;
 
 }
 
-a.githublink:hover{
-	color:#f7c211;
+a.githublink:hover {
+	color: #f7c211;
 }
 
 /* Skills Section*/
 
-.skillsrow{
+.skillsrow {
 	display: flex;
 	flex-direction: row;
-	
+
 }
 
-.scolumn1{
+.scolumn1 {
 	flex: 55%;
-  	padding:40px 30px 40px 30px;
+	padding: 40px 30px 40px 30px;
 	flex-direction: column;
 	background-color: #ffffff;
-	
+
 }
 
-.scolumn2{
+.scolumn2 {
 	flex: 45%;
-  	padding:40px 30px 40px 30px;
+	padding: 40px 30px 40px 30px;
 	flex-direction: column;
 	background-color: #ffffff;
 }
 
-.skillslist{
-	margin: 10px 0px 0px 40px;
+.skillslist {
+	margin: 10px 0px 0px 20px;
 	padding: 0;
-  }
+}
 
-.skillslist li{
-	color:#1b454a;
+.skillslist li {
+	color: #1b454a;
 	list-style-type: none;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 46px;
 	padding: 0px 40px 0px 40px;
- 
-  }
+
+}
 
 /* Skills Section Styles End*/
 
@@ -186,40 +188,40 @@ a.githublink:hover{
 /* Work Page Styles*/
 
 /*Images Start */
-.imgrow{
-	display:flex;
+.imgrow {
+	display: flex;
 	max-width: 1400px;
-	height:auto;
+	height: auto;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 
 }
 
-.imgcolumn{
+.imgcolumn {
 	flex: 33.33%;
 	padding: 10px;
 
 }
 
-img{
+img {
 	width: 100%;
 }
 
 /*Images end */
 
 /* Form Styles Start */
-form{
-margin-left:auto; 
-margin-right:auto; 
-font-size:14pt; 
-max-width: 1200px;
-padding: 1em;
+form {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14pt;
+	max-width: 1200px;
+	padding: 1em;
 
 
 }
 
 label {
-    font: 1rem;
+	font: 1rem;
 	padding: 12px 12px 12px 0;
 	display: inline-block;
 	font-family: Century Schoolbook, verdana, sans-serif;
@@ -234,9 +236,9 @@ input[type=submit] {
 	border-radius: 4px;
 	cursor: pointer;
 	float: right;
-  }
+}
 
-  input[type=reset] {
+input[type=reset] {
 	background-color: #1b454a;
 	color: white;
 	padding: 12px 20px;
@@ -244,31 +246,33 @@ input[type=submit] {
 	border-radius: 4px;
 	cursor: pointer;
 	float: left;
-  }
+}
 
 
 /* Style inputs, select elements and textareas */
-  input[type=text], select, textarea{
+input[type=text],
+select,
+textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ffffff;
 	border-radius: 4px;
 	box-sizing: border-box;
 	resize: vertical;
-  }
-  
+}
 
 
-.form-container{
 
-   background-color: #f2f2f2;
-   margin-right: auto;
-   margin-left: auto;
-   border: solid 1px;
-   border-radius: 5px;
-   padding: 20px;
-   max-width: 1000px;
-   line-height: 22px;
+.form-container {
+
+	background-color: #f2f2f2;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 1000px;
+	line-height: 22px;
 
 
 
@@ -279,94 +283,97 @@ input[type=submit] {
 	float: left;
 	width: 25%;
 	margin-top: 6px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
 	float: left;
 	width: 75%;
 	margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .form-row:after {
+}
+
+/* Clear floats after the columns */
+.form-row:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
 
 /* Form Styles End */
 
 
 /* Footer Styles Start*/
-  footer{
+footer {
 	padding: 10px 10px 0px 10px;
 	bottom: 0;
 	width: 100%;
 	height: 40px;
-	position:relative;
+	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 12px;
-	background-color:#1b454a;
+	background-color: #1b454a;
 	color: #8cbaba;
-  }
-  
-  .footercontainer{
-	  margin-top: 105px
-  
-  }
-
-
-  /* Footer Styles End*/
-
-  /* PHP tests */
-
-.success{
-    color: green;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
 }
-.failed{
-    color: red;
-    font-weight: 700;
-    padding: 5px;
-    text-align: center;
+
+.footercontainer {
+	margin-top: 105px
+}
+
+
+/* Footer Styles End*/
+
+/* PHP tests */
+
+.success {
+	color: #00A300;
+	font-weight: 700;
+	padding: 5px;
+	text-align: center;
+}
+
+.failed {
+	color: #ff0000;
+	font-weight: 700;
+	padding: 5px;
+	text-align: center;
 }
 
 /*Media Queries */
 
-@media(max-width:500px){
-	.flexrow{
+@media(max-width:500px) {
+	.flexrow {
 		flex-flow: column wrap;
 
 	}
-	.flexcolumn1{
+
+	.flexcolumn1 {
 		padding-bottom: 5px;
 	}
-	.flexcolumn2{
-		padding:40px 30px 40px 50px;
+
+	.flexcolumn2 {
+		padding: 40px 30px 40px 50px;
 	}
 
-	.skillslist{
+	.skillslist {
 		margin: 10px 45px 10px 30px;
 		padding: 0;
 		text-align: center;
 	}
 
-	.scolumn1{
+	.scolumn1 {
 		padding-bottom: 5px;
 	}
 
 }
 
 @media screen and (max-width: 600px) {
-	.col-25, .col-75, input[type=submit], input[type=reset] {
-	  width: 100%;
-	  margin-top: 0;
+
+	.col-25,
+	.col-75,
+	input[type=submit],
+	input[type=reset] {
+		width: 100%;
+		margin-top: 0;
 	}
-  }
-
-
-
+}
