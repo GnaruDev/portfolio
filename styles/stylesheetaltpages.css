@@ -323,13 +323,13 @@ input[type=submit] {
   /* PHP tests */
 
 .success{
-    color: green;
+    color: #00A300;
     font-weight: 700;
     padding: 5px;
     text-align: center;
 }
 .failed{
-    color: red;
+    color: #ff0000;
     font-weight: 700;
     padding: 5px;
     text-align: center;
